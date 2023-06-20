@@ -1,0 +1,48 @@
+# dependencies
+/node_modules
+/mockapi/node_modules
+
+/dist
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+*.log
+*.exe
+*.zip
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# public build
+
+**/public/workbox-*.js
+**/public/sw.js
+**/public/service-worker.js
+
+.vscode
+.firebase
+.idea
+
+tsconfig.server.tsbuildinfo
+
+yarn.lock
